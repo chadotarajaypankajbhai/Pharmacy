@@ -1,0 +1,1231 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.warpper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    padding: 20px 0;
+    box-shadow: 0 0 10px green;
+}
+
+.main-left {
+    width: 30%;
+    text-align: center;
+}
+
+.main-right {
+    width: 70%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.jay {
+    padding: 00px 30px;
+    font-size: 30px;
+    color: green;
+    text-decoration: none;
+}
+
+.jay:hover {
+    /* background-color: green;
+    color: white;
+    padding: 10px; */
+    border: 2px solid green;
+}
+
+.hea-a {
+    width: 100%;
+    display: flex;
+    background-color: rgb(7, 92, 7);
+    color: white;
+}
+
+.hea-a-left {
+    width: 50%;
+    padding: 100px 0;
+    padding-left: 80px;
+}
+
+.hea-a-right {
+    width: 50%;
+    text-align: center;
+}
+
+.hea-a-left h1 {
+    font-size: 55px;
+}
+
+.hea-a-left button {
+    border: none;
+    background-color: white;
+    color: green;
+    width: 22%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.hea-a-right img {
+    width: 600px;
+    position: relative;
+    top: 13px;
+}
+
+.hea-b {
+    width: 100%;
+    display: flex;
+}
+.hea-b h1{
+    font-size: 30px;
+}
+
+.hea-b-one {
+    width: 25%;
+    display: flex;
+    background-color: cadetblue;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px 0;
+}
+
+.hea-b-two {
+    width: 25%;
+    display: flex;
+    background-color: pink;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px 0;
+}
+
+.hea-b-three {
+    width: 25%;
+    display: flex;
+    background-color: palegreen;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px 0;
+}
+
+.hea-b-four {
+    width: 25%;
+    display: flex;
+    background-color: slateblue;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px 0;
+}
+
+.hea-b-one i {
+    font-size: 50px;
+    padding: 15px 10px;
+}
+
+.hea-b-two i {
+    font-size: 50px;
+    padding: 15px 10px;
+}
+
+.hea-b-three i {
+    font-size: 50px;
+    padding: 15px 10px;
+}
+
+.hea-b-four i {
+    font-size: 50px;
+    padding: 15px 10px;
+}
+
+.hea-b-one-right {
+    text-align: center;
+    width: 100%;
+}
+
+.sec-a {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.sec-a h1 {
+    font-size: 50px;
+}
+
+.sec-b {
+    width: 100%;
+    display: flex;
+}
+
+.sec-b-one {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-b-two {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-b-three {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+.sec-b-three img{
+    width: 200px;
+}
+
+.sec-b-four {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-b button {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+.sec-b button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+
+.sec-b-two img {
+    width: 120px;
+}
+
+.sec-b-one:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-b-two:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-b-three:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-b-four:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-c {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.sec-c h1 {
+    font-size: 55px;
+}
+
+.sec-d {
+    width: 100%;
+    display: flex;
+}
+
+.sec-d-one {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-d-two {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-d-three {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-d-four {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-d button {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+.sec-d button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+
+.sec-d-two img {
+    width: 180px;
+    height: 240px;
+}
+
+.sec-d-one img {
+    width: 180px;
+    height: 240px;
+}
+
+.sec-d-three img {
+    width: 180px;
+    height: 240px;
+}
+
+.sec-d-one:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-d-two:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-d-three:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-d-four:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-e {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+
+.sec-e-left {
+    width: 50%;
+    display: flex;
+    background-color: rgb(161, 199, 201);
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 30px;
+}
+.sec-e-left:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.sec-e-right {
+    width: 50%;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.sec-e-left-top {
+    width: 50%;
+    padding-left: 30px;
+}
+
+.sec-e-left-bom {
+    width: 50%;
+}
+
+.sec-e-left-bom img {
+    width: 250px;
+    padding: 30px 0;
+}
+.sec-e-left-top button {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.sec-e-left-top h1 {
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+.sec-e-left-top h2 {
+    font-size: 35px;
+    padding: 40px 0;
+}
+
+.sec-e-right-top {
+    width: 100%;
+    display: flex;
+    background-color: pink;
+    padding-left: 30px;
+    border-radius: 30px;
+}
+.sec-e-right-top:hover{
+    box-shadow: 0 0 10px black;
+}
+.sec-f-one{
+    width: 50%;
+}
+.sec-f-two{
+    width: 50%;
+}
+.sec-f-one button{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.sec-f-one h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+.sec-f-one h2{
+    font-size: 35px;
+    padding: 40px 0;
+}
+.sec-f-two img{
+    width: 250px;
+    height: 450px;
+}
+.sec-g{
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+.one{
+    width: 33%;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.three{
+    width: 34%;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.two h1{
+    font-size: 40px;
+}
+.sec-l {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+
+.sec-l-one {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-l-two {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-l-three {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-l-four {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-l button {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+.sec-l button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+
+.sec-l-two img {
+    width: 120px;
+}
+
+.sec-l-one:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-l-two:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-l-three:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-l-four:hover {
+    box-shadow: 0 0 10px black;
+}
+.sec-l-one img{
+    padding: 50px 0;
+}
+.sec-l-two img{
+    padding: 55px 0;
+}
+.sec-l-three img{
+    padding: 20px 0;
+}
+.sec-l-four img{
+    padding: 20px 0;
+}
+.sec-k{
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+.sec-k-one{
+    width: 25%;
+    background-color: rgb(185, 228, 229);
+    display: flex;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 0 10px;
+}
+.sec-k-one:hover{
+    box-shadow: 0 0 15px cadetblue;
+}
+.sec-k-two{
+    width: 25%;
+    background-color: burlywood;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 0 10px;
+}
+.sec-k-two:hover{
+    box-shadow: 0 0 15px burlywood;
+}
+.sec-k-three{
+    width: 25%;
+    background-color: pink;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 0 10px;
+}
+.sec-k-three:hover{
+    box-shadow: 0 0 15px pink;
+}
+.sec-k-four{
+    width: 25%;
+    background-color: blueviolet;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 0 10px;
+}
+.sec-k-four:hover{
+    box-shadow: 0 0 15px blueviolet;
+}
+.sec-k-one-left{
+    width: 50%;
+    text-align: end;
+    font-size: 20px;
+}
+.sec-k-one-right{
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+}
+.sec-k-one h1{
+    font-size: 40px;
+}
+
+.sec-k-two-left{
+    width: 50%;
+    text-align: end;
+    font-size: 20px;
+}
+.sec-k-two-right{
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+}
+.sec-k-two h1{
+    font-size: 40px;
+}
+
+.sec-k-three-left{
+    width: 50%;
+    text-align: end;
+    font-size: 20px;
+}
+.sec-k-three-right{
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+}
+.sec-k-three h1{
+    font-size: 40px;
+}
+
+.sec-k-four-left{
+    width: 50%;
+    text-align: end;
+    font-size: 20px;
+}
+.sec-k-four-right{
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+}
+.sec-k-four h1{
+    font-size: 40px;
+}
+
+
+.sec-j {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+
+.sec-j-one {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-j-two {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-j-three {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-j-four {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-j button {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+.sec-j button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+.sec-j-one:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-j-two:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-j-three:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-j-four:hover {
+    box-shadow: 0 0 10px black;
+}
+.sec-j img{
+    width: 200px;
+}
+.sec-j-two img{
+    padding: 18px 0;
+}
+.sec-j-four img{
+    padding: 18px 0;
+}
+
+.sec-s {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+
+.sec-s-one {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-s-two {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-s-three {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-s-four {
+    width: 25%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sec-s button {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+.sec-s button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+.sec-s-one:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-s-two:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-s-three:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.sec-s-four:hover {
+    box-shadow: 0 0 10px black;
+}
+.sec-s-three img{
+    padding: 24px 0;
+}
+.sec-u{
+    width: 100%;
+    display: flex;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+  margin: 30px 0;
+}
+.sec-u-left{
+    width: 50%;
+    padding: 80px 0;
+    padding-left: 50px;
+}
+.sec-u-right{
+    width: 50%;
+    text-align: center;
+}
+.sec-u-right img{
+    width: 550px;
+}
+.sec-u-left h1{
+    font-size: 50px;
+    padding: 10px 0;
+}
+.sec-u-left button{
+    border: none;
+    background-color: white;
+    color: green;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+.foo-a{
+    width: 100%;
+    display: flex;
+    background-color:rgb(6, 121, 6);
+    color: white;
+    padding: 50px 0;
+}
+.foo-a-one{
+    width: 25%;
+    text-align: center;
+}
+.foo-a-two{
+    width: 25%;
+    text-align: center;
+}
+.foo-a-three{
+    width: 25%;
+    text-align: center;
+}
+.foo-a-four{
+    width: 25%;
+    text-align: center;
+}
+.foo-b{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 0;
+    width: 100%;
+}
+.foo-c{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 0;
+    width: 100%;
+}
+.foo-d{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 5px 0;
+    width: 100%;
+}
+.foo-a i{
+    font-size: 30px;
+    padding: 0 10px ;
+}
+.foo-a h1{
+    font-size: 50px;
+    color: white
+}
+.foo-a-two a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.foo-a-three a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.foo-a-four a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.foo-e{
+    background-color:rgb(6, 121, 6);
+    color: white;
+    padding: 30px 0;   
+    width: 100%;
+    text-align: center;
+}
+.contact{
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.contact h1{
+    font-size: 50px;
+    padding: 10px 0;
+}
+.contact input{
+    padding: 10px;
+   margin: 10px 0;
+   width: 50%;
+}
+.contact textarea{
+    padding: 10px;
+    margin: 10px 0;
+    width: 50%;
+}
+.contact button{
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    margin: 30px 0;
+    border-radius: 50px;
+}
+.contact button:hover{
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+.contact-map{
+    width: 100%;
+}
+.contact-map iframe{
+    width: 100%;
+    height: 500px;
+}
+@media (max-width:1024px) {
+    .jay{
+        padding: 0 10px;
+    }
+    .hea-a-right img{
+        width: 520px;
+    }
+    .hea-a-left button{
+        width: 35%;
+    }
+    .two h1{
+        font-size: 37px;
+    }
+    .sec-u-right img{
+        width: 485px;
+    }
+    
+}
+@media (max-width:991px) {
+    .hea-a-right img {
+        width: 500px;
+    }
+}
+@media (max-width:768px) {
+    
+    .jay{
+        padding: 0 5px;
+        font-size: 26px;
+    }
+    .main-left{
+        width: 24%;
+    }
+    .hea-a{
+        display: block;
+    }
+    .hea-a-left{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    .hea-a-right{
+        width: 100%;
+        text-align: center;
+    }
+    .hea-b{
+        display: block;
+    }
+    .hea-b-one{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .hea-b-two{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .hea-b-three{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .hea-b-four{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-b{
+        display: block;
+    }
+    .sec-b-one{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-b-two{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-b-three{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-b-four{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .two h1{
+        font-size: 28px;
+    }
+    .sec-d{
+        display: block;
+    }
+    .sec-d-one{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-d-two{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-d-three{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-d-four{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-e{
+        display: block;
+        margin-left: 10px;
+    }
+    .sec-e-left {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sec-e-right{
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .sec-l{
+        display: block;
+    }
+    .sec-l-one{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-l-two{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-l-three{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-l-four{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-k {
+        display: block;
+    }
+    .sec-k-one{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-k-one-left{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .sec-k-two{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-k-two-left{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .sec-k-three{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-k-three-left{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .sec-k-four{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-k-four-left{
+        text-align: center;
+        padding: 20px 0;
+    }
+    .sec-j{
+        display: block;
+    }
+    .sec-j-one{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-j-two{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-j-three{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-j-four{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-s{
+        display: block;
+    }
+    .sec-s-one{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-s-two{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-s-three{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-s-four{
+        width: 100%;
+        text-align: center;
+        margin:  10px 0;
+    }
+    .sec-u{
+        display: block;
+    }
+    .sec-u-left{
+        width: 100%;
+        text-align: center;
+    }
+    .sec-u-right{
+        width: 100%;
+        text-align: center;
+    }
+    .foo-a{
+        display: block;
+    }
+    .foo-a-one{
+        width: 100%;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .foo-a-two{
+        width: 100%;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .foo-a-three{
+        width: 100%;
+        text-align: center;
+        margin: 30px 0;
+    }
+    .foo-a-four{
+        width: 100%;
+        text-align: center;
+        margin: 30px 0;
+    }
+}
+@media (max-width:450px) {
+    .main-right{
+      display: none;
+    }
+    .main-left {
+        width: 100%;
+        text-align: center;
+    }
+    .hea-a-right img {
+        width: 350px;
+    }
+    .sec-e-left-bom img{
+        width: 200px;
+    }
+    .sec-f-two img {
+        width: 200px;
+    }
+    .two h1{
+        font-size: 15px;
+        padding: 13px 0;
+    }
+    .sec-u-left button {
+        width: 40%;
+    }
+    .sec-u-right img{
+        width: 400px;
+    }
+}
